@@ -1,0 +1,258 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F5F7FA;
+}
+/* main styles */
+.main {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    margin: 0 auto;
+}
+/* content styles */
+.content {
+    background-color: #FFFFFF;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    padding: 105px 90px;
+}
+.title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+/* about styles */
+.about {
+    margin-bottom: 40px;
+}
+.aboutPosition {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.aboutName {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    color: #000000;
+    margin-bottom: 25px;
+
+}
+.aboutDescription {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    width: 650px;
+}
+
+/* projects styles */
+.projects {
+    margin-bottom: 50px;
+}
+.projectsList {
+    padding: 0;
+    margin-left: 17px;
+}
+.projectItem {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+
+}
+.project, .projectLink {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+
+}
+.projectBracket {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+.projectLink {
+    margin-left: 10px;
+    text-decoration: none;
+}
+/* work styles */
+.work {
+    margin-bottom: 40px;
+}
+.workList {
+    padding: 0;
+    margin-left: 17px;
+}
+.workListItem {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+.workPosition {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.organization {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FB6D3A;
+}
+/* period styles */
+.period {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.period2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.periodLine {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+    margin: auto 5px;
+}
+/* education styles */
+/* .education {} */
+.eduTitle {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FB6D3A;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.speciality {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+/* sidebar styles */
+.sidebar {
+   background-color: #182835; 
+   padding-top: 40px;
+   width: 370px;
+}
+.photo {
+    width: 370px;
+    margin-bottom: 50px;
+    border-radius: 10%;
+}
+.sidebarTitle {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 10px;
+}
+.contacts, .tSkills, .sSkills {
+    margin-left: 40px;
+}
+.contacts {
+    margin-bottom: 50px;
+}
+
+.contactType {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-right: 10px;
+}
+.contactLink {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #8d949d;
+    /* opacity: 0.5; */
+    text-decoration: none;
+}
+.tSkills {
+    margin-bottom: 45px;
+}
+.skillsList {
+    color: #FFFFFF;
+    padding: 0;
+    margin-left: 18px;
+}
+
+.skillsItem {
+    color: #FB6D3A;
+}
+.skillsText {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+/* Button styles */
+.container {
+    position: relative;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.language-switch {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+#language-toggle {
+    padding: 10px 20px;
+    background-color: #cbcaca;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+#language-toggle:hover {
+    background-color: #030303;
+}
