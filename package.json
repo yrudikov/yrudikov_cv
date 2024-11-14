@@ -1,0 +1,14 @@
+{
+  "name": "yrudikov_cv",
+  "version": "1.0.0",
+  "description": "Personal CV project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["resume", "cv", "portfolio"],
+  "author": "rudi",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}
