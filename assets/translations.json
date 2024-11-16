@@ -2,64 +2,126 @@
   "en": {
     "aboutName": "Yevhen Rudikov",
     "aboutDescription": "I am a self-motivated and honest person who is willing to gain knowledge, use it, and grow professionally. I always listen to the opinions of others and work well in a team.",
-
     "workExperience": "Work Experience",
-    "qualityTechnician": "Quality Technician",
-    "lineLeader": "Line Leader",
-    "lineWorker": "Line Worker",
-    "ficomirrors": "Ficomirrors Poland",
-    "qualityTechnicianPeriod": "February 2021 - Present | Poland",
-    "qualityTechnicianResponsibilities": [
-      "Preparation of quality documentation, product audits, 8D analyses. Managing finished product selection. Resolving current issues. Utilizing quality and Lean tools (PDCA, Problem solving, Kaizen, SixSigma).",
-      "Supervision of measuring equipment and master details. Working with technical drawings.",
-      "Working with a 3D scanner, spectrometer, oscilloscope. Preparation of measurement reports."
+    "workData": [
+      {
+        "position": "Junior Frontend Developer",
+        "organization": "Email2TMS",
+        "period": "April 2024 - Present | Poland",
+        "responsibilities": [
+          "Developing responsive applications in Angular v16 using the PrimeNG framework.",
+          "Writing clean and efficient TypeScript code.",
+          "Collaborating on designing user-friendly interfaces.",
+          "Optimizing application performance and code efficiency.",
+          "Working in an Ubuntu 24.04 environment using WebStorm."
+        ]
+      },
+      {
+        "position": "Quality Technician",
+        "organization": "Ficomirrors Poland",
+        "period": "February 2021 - April 2024 | Poland",
+        "responsibilities": [
+          "Preparation of quality documentation, product audits, 8D analyses. Managing finished product selection. Resolving current issues. Utilizing quality and Lean tools (PDCA, Problem solving, Kaizen, SixSigma).",
+          "Supervision of measuring equipment and master details. Working with technical drawings.",
+          "Working with a 3D scanner, spectrometer, oscilloscope. Preparation of measurement reports."
+        ]
+      },
+      {
+        "position": "Line Leader",
+        "organization": "Ficomirrors Poland",
+        "period": "September 2019 - February 2021 | Poland",
+        "responsibilities": [
+          "Managing production line, overseeing line documentation.",
+          "Training new employees."
+        ]
+      },
+      {
+        "position": "Line Worker",
+        "organization": "Ficomirrors Poland",
+        "period": "February 2018 - September 2019 | Poland",
+        "responsibilities": []
+      }
     ],
-    "lineLeaderPeriod": "September 2019 - February 2021 | Poland",
-    "lineLeaderResponsibilities": [
-      "Managing production line, overseeing line documentation, training new employees."
-    ],
-    "lineWorkerPeriod": "February 2018 - September 2019 | Poland",
-
     "education": "Education",
-    "wsbUniversity": "WSB University in Dabrowa Gornicza",
-    "wsbSpeciality": "Quality Management",
-    "wsbDegree": "Master's Degree",
-    "wsbPeriod": "February 2020 - February 2022 | Poland",
-
-    "dneprUniversity": "Dnipro State Agrarian and Economic University",
-    "dneprSpeciality": "Management",
-    "dneprDegree": "Master's Degree",
-    "dneprPeriod": "September 2007 - June 2012 | Ukraine",
-
+    "educationData": [
+      {
+        "title": "WSB University in Dabrowa Gornicza",
+        "speciality": "Quality Management",
+        "degree": "Master's Degree",
+        "period": "February 2020 - February 2022 | Poland"
+      },
+      {
+        "title": "Dnipro State Agrarian and Economic University",
+        "speciality": "Management",
+        "degree": "Master's Degree",
+        "period": "September 2007 - June 2012 | Ukraine"
+      }
+    ],
     "courses": "Courses, Training, Certificates",
-    "devOps": "DevOps Fundamentals",
-    "devOpsDescription": "SoftServe Academy | February - March 2024",
-    "devOpsDetails": "Version Control and Collaboration (Git, GitHub), Operating Systems and Scripting (Linux, Bash, PowerShell), RegExp, Networking Basics, TCP/IP Addressing, Network Troubleshooting and Diagnostics, Databases, Virtualization and Infrastructure Management.",
-    "jsCourse": "JavaScript Syntax",
-    "jsDescription": "pasv.us | May 2023",
-    "jsDetails": "Basics of JavaScript.",
-    "qaManual": "QA Manual",
-    "qaDescription": "pasv.us | March - May 2023",
-    "qaDetails": "Testing theory, tools, software development cycles and models, levels of testing, basics of requirements and test cases, defects and bug reports, Scrum, API testing, types of testing and test documentation.",
+    "coursesData": [
 
+      {
+        "title": "Database Fundamentals",
+        "description": "SoftServe Academy | September - October 2024",
+        "details": "Relational Databases (Keys, Relations, SQL Basics), Advanced Queries (Aggregate Functions, Subqueries), Database Design and Administration (Transactions, Stored Procedures), and Introduction to NoSQL and MongoDB."
+      },
+      {
+        "title": "JavaScript/TypeScript Fundamentals",
+        "description": "SoftServe Academy | August - September 2024",
+        "details": "JavaScript Basics (Expressions, Operators, Data Types, Arrays, Functions), Debugging, OOP (Objects, Classes), DOM Manipulation, Event Handling, Regular Expressions, Modern JS (ES Modules, Destructuring, Set, Map), Asynchronous JS (Promises, async/await), Introduction to Node.js, Full Node.js Project (Fetch/AJAX), and TypeScript Basics (Data Types, Interfaces, OOP, Generics, Decorators)."
+
+      },
+      {
+        "title": "HTML/ CSS/ JavaScript Fundamentals",
+        "description": "SoftServe Academy | June - July 2024",
+        "details": "Web Development Basics (HTML, CSS, JavaScript), Advanced CSS (FlexBox, Grid, Animations), JavaScript Essentials (DOM Manipulation, Fetch API), and Intro to NodeJS."
+      },
+      {
+        "title": "DevOps Fundamentals",
+        "description": "SoftServe Academy | February - March 2024",
+        "details": "Version Control and Collaboration (Git, GitHub), Operating Systems and Scripting (Linux, Bash, PowerShell), Networking Basics, TCP/IP Addressing, Troubleshooting, Virtualization, and Databases."
+      },
+      {
+        "title": "JavaScript Syntax",
+        "description": "PASV | May 2023",
+        "details": "Learned the basics of JavaScript, including ES6 features."
+      },
+      {
+        "title": "QA Manual Testing",
+        "description": "PASV | March - May 2023",
+        "details": "Covered fundamentals of testing, bug reporting, and API testing using Postman."
+      }
+    ],
     "contactsTitle": "Contacts",
-    "phone": "Phone:",
-    "email": "Email:",
-
+    "contactsData": {
+      "phone": {
+        "type": "Phone:",
+        "value": "+48884667376"
+      },
+      "email": {
+        "type": "Email:",
+        "value": "yrudikov@gmail.com"
+      }
+    },
     "techSkills": "Tech Skills",
     "techSkillsList": [
       "GIT",
       "Linux, bash",
-      "Databases (RDBMS and NoSQL)",
-      "Networks TCP/IP",
       "HTML, CSS, JavaScript",
-      "Fundamentals of software testing, API, postman",
-      "Web servers, LAMP, LEMP"
+      "TypeScript",
+      "Angular",
+      "Databases (SQL and NoSQL)",
+      "CSS Frameworks (PrimeNG, Bootstrap, Tailwind)",
+      "Node.js",
+      "Postman REST API"
     ],
-
     "softSkills": "Soft Skills",
-    "softSkillsList": ["Scrum", "Agile", "GTD", "Teamwork"],
-
+    "softSkillsList": [
+      "Scrum",
+      "Agile",
+      "GTD",
+      "Teamwork"
+    ],
     "languages": "Languages",
     "languagesList": [
       "Ukrainian: native",
@@ -67,71 +129,129 @@
       "Polish: advanced",
       "Russian: advanced"
     ],
-
     "languageSwitch": "PL"
   },
-
   "pl": {
     "aboutName": "Yevhen Rudikov",
     "aboutDescription": "Jestem osobą samodzielną i uczciwą, która chętnie zdobywa wiedzę, wykorzystuje ją i rozwija się zawodowo. Zawsze słucham opinii innych osób i dobrze współpracuję w zespole.",
-
     "workExperience": "Doświadczenie Zawodowe",
-    "qualityTechnician": "Technik Jakości",
-    "lineLeader": "Lider Linii",
-    "lineWorker": "Pracownik Linii",
-    "ficomirrors": "Ficomirrors Polska",
-    "qualityTechnicianPeriod": "Luty 2021 - obecnie | Polska",
-    "qualityTechnicianResponsibilities": [
-      "Przygotowanie dokumentacji jakościowej, audyt produktu, analizy 8D. Zarządzanie selekcją gotowej produkcji. Rozwiązywanie bieżących problemów. Wykorzystanie narzędzia jakości oraz Lean (PDCA, Problem solving, Kaizen, SixSigma).",
-      "Nadzór nad narzędziem pomiarowym oraz wzorcami. Praca z rysunkiem technicznym.",
-      "Obsługa skanera 3D, spektrometru, oscyloskopu. Przygotowanie raportów z pomiarów."
+    "workData": [
+      {
+        "position": "Junior Frontend Developer",
+        "organization": "Email2TMS",
+        "period": "Kwiecień 2024 - obecnie | Polska",
+        "responsibilities": [
+          "Tworzenie responsywnych aplikacji w Angular v16 przy użyciu frameworka PrimeNG",
+          "Pisanie czytelnego i wydajnego kodu w TypeScript.",
+          "Współpraca przy projektowaniu interfejsów przyjaznych dla użytkownika.",
+          "Optymalizacja wydajności aplikacji i kodu.",
+          "Praca w środowisku Ubuntu 24.04 z wykorzystaniem WebStorm."
+        ]
+      },
+      {
+        "position": "Technik Jakości",
+        "organization": "Ficomirrors Polska",
+        "period": "Luty 2021 - Kwiecień 2024 | Polska",
+        "responsibilities": [
+          "Przygotowanie dokumentacji jakościowej, audyt produktu, analizy 8D. Zarządzanie selekcją gotowej produkcji. Rozwiązywanie bieżących problemów. Wykorzystanie narzędzia jakości oraz Lean (PDCA, Problem solving, Kaizen, SixSigma).",
+          "Nadzór nad narzędziem pomiarowym oraz wzorcami. Praca z rysunkiem technicznym.",
+          "Obsługa skanera 3D, spektrometru, oscyloskopu. Przygotowanie raportów z pomiarów."
+        ]
+      },
+      {
+        "position": "Lider Linii",
+        "organization": "Ficomirrors Polska",
+        "period": "Wrzesień 2019 - Luty 2021 | Polska",
+        "responsibilities": [
+          "Zarządzanie linią produkcyjną, nadzór nad dokumentacją linii.",
+          "Szkolenie nowych pracowników."
+        ]
+      },
+      {
+        "position": "Pracownik Linii",
+        "organization": "Ficomirrors Polska",
+        "period": "Luty 2018 - Wrzesień 2019 | Polska",
+        "responsibilities": []
+      }
     ],
-    "lineLeaderPeriod": "Wrzesień 2019 - Luty 2021 | Polska",
-    "lineLeaderResponsibilities": [
-      "Zarządzanie linią produkcyjną, nadzór nad dokumentacją linii, szkolenie nowych pracowników."
-    ],
-    "lineWorkerPeriod": "Luty 2018 - Wrzesień 2019 | Polska",
-
     "education": "Wykształcenie",
-    "wsbUniversity": "Wyższa Szkoła Biznesu w Dąbrowie Górniczej",
-    "wsbSpeciality": "Zarządzanie Jakością",
-    "wsbDegree": "Magister",
-    "wsbPeriod": "Luty 2020 - Luty 2022 | Polska",
-
-    "dneprUniversity": "Dniepropietrowski Państwowy Uniwersytet Rolniczy",
-    "dneprSpeciality": "Zarządzanie",
-    "dneprDegree": "Magister",
-    "dneprPeriod": "Wrzesień 2007 - Czerwiec 2012 | Ukraina",
-
-    "courses": "Szkolenia, kursy, certyfikaty",
-    "devOps": "DevOps Fundamentals",
-    "devOpsDescription": "SoftServe Academy | Luty - Marzec 2024",
-    "devOpsDetails": "Version Control and Collaboration (Git, GitHub), Operating Systems and Scripting (Linux, Bash, PowerShell), RegExp, Networking Basics, TCP/IP Addressing, Network Troubleshooting and Diagnostics, Databases, Virtualization and Infrastructure Management.",
-    "jsCourse": "JavaScript Syntax",
-    "jsDescription": "pasv.us | Maj 2023",
-    "jsDetails": "Basics of JavaScript.",
-    "qaManual": "QA Manual",
-    "qaDescription": "pasv.us | Marzec - Maj 2023",
-    "qaDetails": "Testing theory, tools, software development cycles and models, levels of testing, basics of requirements and test cases, defects and bug reports, Scrum, API testing, types of testing and test documentation.",
-
+    "educationData": [
+      {
+        "title": "Wyższa Szkoła Biznesu w Dąbrowie Górniczej",
+        "speciality": "Zarządzanie Jakością",
+        "degree": "Magister",
+        "period": "Luty 2020 - Luty 2022 | Polska"
+      },
+      {
+        "title": "Dniepropietrowski Państwowy Uniwersytet Rolniczy",
+        "speciality": "Zarządzanie",
+        "degree": "Magister",
+        "period": "Wrzesień 2007 - Czerwiec 2012 | Ukraina"
+      }
+    ],
+    "courses": "Szkolenia, Kursy, Certyfikaty",
+    "coursesData": [
+      {
+        "title": "Database Fundamentals",
+        "description": "SoftServe Academy | Wrzesień - Październik 2024",
+        "details": "Relacyjne Bazy Danych (Klucze, Relacje, Podstawy SQL), Zaawansowane Zapytania (Funkcje Agregujące, Podzapytania), Projektowanie i Administracja Baz Danych (Transakcje, Procedury Składowane) oraz Wprowadzenie do NoSQL i MongoDB."
+      },
+      {
+        "title": "JavaScript/TypeScript Fundamentals",
+        "description": "SoftServe Academy | Sierpień - Wrzesień 2024",
+        "details": "Podstawy JavaScript (Wyrażenia, Operatory, Typy Danych, Tablice, Funkcje), Debugowanie, OOP (Obiekty, Klasy), Manipulacja DOM, Obsługa Zdarzeń, Wyrażenia Regularne, Nowoczesny JS (Moduły ES, Destrukturyzacja, Set, Map), Asynchroniczny JS (Promises, async/await), Wprowadzenie do Node.js, Pełny Projekt Node.js (Fetch/AJAX) oraz Podstawy TypeScript (Typy Danych, Interfejsy, OOP, Generics, Dekoratory)."
+      },
+      {
+        "title": "HTML/ CSS/ JavaScript Fundamentals",
+        "description": "SoftServe Academy | Czerwiec - Lipiec 2024",
+        "details": "Podstawy Tworzenia Stron WWW (HTML, CSS, JavaScript), Zaawansowany CSS (FlexBox, Grid, Animacje), Kluczowe Elementy JavaScript (Manipulacja DOM, Fetch API) oraz Wprowadzenie do NodeJS."
+      },
+      {
+        "title": "DevOps Fundamentals",
+        "description": "SoftServe Academy | Luty - Marzec 2024",
+        "details": "Kontrola wersji i współpraca (Git, GitHub), systemy operacyjne i skrypty (Linux, Bash, PowerShell), podstawy sieci, adresowanie TCP/IP, diagnozowanie problemów, wirtualizacja i bazy danych."
+      },
+      {
+        "title": "JavaScript Syntax",
+        "description": "PASV | Maj 2023",
+        "details": "Poznanie podstaw JavaScript, w tym funkcji ES6."
+      },
+      {
+        "title": "QA Manual Testing",
+        "description": "PASV | Marzec - Maj 2023",
+        "details": "Podstawy testowania, raportowania błędów i testowania API za pomocą Postmana."
+      }
+    ],
     "contactsTitle": "Kontakty",
-    "phone": "Telefon:",
-    "email": "Email:",
-
+    "contactsData": {
+      "phone": {
+        "type": "Telefon:",
+        "value": "+48884667376"
+      },
+      "email": {
+        "type": "Email:",
+        "value": "yrudikov@gmail.com"
+      }
+    },
     "techSkills": "Tech Skills",
     "techSkillsList": [
       "GIT",
       "Linux, bash",
-      "Bazy danych (RDBMS i NoSQL)",
-      "Sieci TCP/IP",
       "HTML, CSS, JavaScript",
-      "Podstawy testowania oprogramowania, API, postman",
-      "Serwery internetowe, LAMP, LEMP"
+      "TypeScript",
+      "Angular",
+      "Bazy danych (SQL i NoSQL)",
+      "CSS Frameworks (PrimeNG, Bootstrap, Tailwind)",
+      "Node.js",
+      "Postman REST API"
     ],
-
     "softSkills": "Soft Skills",
-    "softSkillsList": ["Scrum", "Agile", "GTD", "Praca zespołowa"],
-
+    "softSkillsList": [
+      "Scrum",
+      "Agile",
+      "GTD",
+      "Praca zespołowa"
+    ],
     "languages": "Języki",
     "languagesList": [
       "Ukraiński: poziom ojczysty",
@@ -139,7 +259,6 @@
       "Polski: poziom zaawansowany",
       "Rosyjski: poziom zaawansowany"
     ],
-
     "languageSwitch": "EN"
   }
 }

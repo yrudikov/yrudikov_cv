@@ -173,7 +173,7 @@ body {
 .photo {
     width: 370px;
     margin-bottom: 50px;
-    border-radius: 10%;
+    border-radius: 2px;
 }
 .sidebarTitle {
     color: #FFFFFF;
@@ -185,6 +185,7 @@ body {
 }
 .contacts, .tSkills, .sSkills {
     margin-left: 40px;
+    margin-right: 40px;
 }
 .contacts {
     margin-bottom: 50px;
@@ -253,4 +254,9 @@ body {
 
 #language-toggle:hover {
     background-color: #030303;
+}
+
+.contacts-paragraph {
+    display: flex;
+    justify-content: space-between;
 }
