@@ -103,9 +103,11 @@
       "Linux, bash",
       "HTML, CSS, JavaScript",
       "TypeScript",
+      "React",
+      "Next.js",
       "Angular",
       "Databases (SQL and NoSQL)",
-      "CSS Frameworks (PrimeNG, Bootstrap, Tailwind)",
+      "CSS Frameworks (PrimeNG, Bootstrap, Material UI)",
       "Node.js",
       "Postman REST API"
     ],
