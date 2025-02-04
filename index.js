@@ -143,6 +143,18 @@ function renderContacts(translations, language) {
         <a href="mailto:${contactsData.email.value}" class="contactLink">${contactsData.email.value}</a>`;
     contactsDiv.appendChild(emailElement);
 
+    const linkedinElement = document.createElement('p');
+    linkedinElement.className = 'contacts-paragraph';
+    linkedinElement.innerHTML = `<span class="contactType">${contactsData.linkedin.type}</span>
+        <a href="${contactsData.linkedin.value}" class="contactLink">${contactsData.linkedin.title}</a>`;
+    contactsDiv.appendChild(linkedinElement);
+
+    const githubElement = document.createElement('p');
+    githubElement.className = 'contacts-paragraph';
+    githubElement.innerHTML = `<span class="contactType">${contactsData.gitHub.type}</span>
+        <a href="${contactsData.gitHub.value}" class="contactLink">${contactsData.gitHub.title}</a>`;
+    contactsDiv.appendChild(githubElement);
+
     contactsContainer.appendChild(contactsDiv);
 }
 

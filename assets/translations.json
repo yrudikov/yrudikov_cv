@@ -1,19 +1,30 @@
 {
   "en": {
     "aboutName": "Yevhen Rudikov",
-    "aboutDescription": "I am a self-motivated and honest person who is willing to gain knowledge, use it, and grow professionally. I always listen to the opinions of others and work well in a team.",
+    "aboutDescription": "I am a self-motivated person who is willing to gain knowledge, use it, and grow professionally. I always listen to the opinions of others and work well in a team.",
     "workExperience": "Work Experience",
     "workData": [
       {
+        "position": "Freelance Frontend Developer",
+        "organization": "Diet-A.com",
+        "period": "January 2025 - Present | Remote",
+        "responsibilities": [
+          "Creating and developing a fully responsive website for <a href=\"https://diet-a.com/\" class=\"contactLink\">Diet-a.com</a> using React, Next.js, and Material UI.",
+          "Implementing modern UI/UX principles to ensure an engaging and user-friendly experience.",
+          "Optimizing site performance and integrating SEO best practices to boost organic search visibility.",
+          "Managing the entire project lifecycle—from initial concept and design to deployment and ongoing maintenance.",
+          "Continuously monitoring and refining the website to meet evolving user needs and performance standards."
+        ]
+      },
+      {
         "position": "Junior Frontend Developer",
         "organization": "Email2TMS",
-        "period": "April 2024 - Present | Poland",
+        "period": "April 2024 - January 2025 | Poland",
         "responsibilities": [
-          "Developing responsive applications in Angular v16 using the PrimeNG framework.",
-          "Writing clean and efficient TypeScript code.",
-          "Collaborating on designing user-friendly interfaces.",
-          "Optimizing application performance and code efficiency.",
-          "Working in an Ubuntu 24.04 environment using WebStorm."
+          "Develop responsive web applications using Angular with the PrimeNG framework, as well as building dynamic interfaces with React and Next.js for select projects.",
+          "Write clean, efficient, and maintainable TypeScript code across different frameworks.",
+          "Collaborate with cross-functional teams to design user-friendly interfaces.",
+          "Optimize application performance and enhance code efficiency to meet diverse project requirements."
         ]
       },
       {
@@ -23,15 +34,7 @@
         "responsibilities": [
           "Preparation of quality documentation, product audits, 8D analyses. Managing finished product selection. Resolving current issues. Utilizing quality and Lean tools (PDCA, Problem solving, Kaizen, SixSigma).",
           "Supervision of measuring equipment and master details. Working with technical drawings.",
-          "Working with a 3D scanner, spectrometer, oscilloscope. Preparation of measurement reports."
-        ]
-      },
-      {
-        "position": "Line Leader",
-        "organization": "Ficomirrors Poland",
-        "period": "September 2019 - February 2021 | Poland",
-        "responsibilities": [
-          "Managing production line, overseeing line documentation.",
+          "Working with a 3D scanner, spectrometer, oscilloscope. Preparation of measurement reports.",
           "Training new employees."
         ]
       }
@@ -51,39 +54,42 @@
         "period": "September 2007 - June 2012 | Ukraine"
       }
     ],
-    "courses": "Courses, Training, Certificates",
+    "courses": "Courses & Certificates",
     "coursesData": [
-
+      {
+        "title": "Practical React",
+        "description": "SoftServe Academy | December 2024 - March 2025",
+        "details": "JavaScript fundamentals, OOP, advanced concepts (async, closures, exceptions), building React apps with JSX, components, state, hooks, Redux state management, routing, and testing."
+      },
       {
         "title": "Database Fundamentals",
         "description": "SoftServe Academy | September - October 2024",
-        "details": "Relational Databases (Keys, Relations, SQL Basics), Advanced Queries (Aggregate Functions, Subqueries), Database Design and Administration (Transactions, Stored Procedures), and Introduction to NoSQL and MongoDB."
+        "details": "Relational databases, advanced queries, database design & administration, and an introduction to NoSQL and MongoDB."
       },
       {
         "title": "JavaScript/TypeScript Fundamentals",
         "description": "SoftServe Academy | August - September 2024",
-        "details": "JavaScript Basics (Expressions, Operators, Data Types, Arrays, Functions), Debugging, OOP (Objects, Classes), DOM Manipulation, Event Handling, Regular Expressions, Modern JS (ES Modules, Destructuring, Set, Map), Asynchronous JS (Promises, async/await), Introduction to Node.js, Full Node.js Project (Fetch/AJAX), and TypeScript Basics (Data Types, Interfaces, OOP, Generics, Decorators)."
-
+        "details": "JavaScript basics, debugging, OOP, DOM manipulation, modern JS features, asynchronous programming, Node.js basics, and TypeScript fundamentals."
       },
       {
         "title": "HTML/ CSS/ JavaScript Fundamentals",
         "description": "SoftServe Academy | June - July 2024",
-        "details": "Web Development Basics (HTML, CSS, JavaScript), Advanced CSS (FlexBox, Grid, Animations), JavaScript Essentials (DOM Manipulation, Fetch API), and Intro to NodeJS."
+        "details": "Web development fundamentals, advanced CSS techniques (FlexBox, Grid, animations), and JavaScript essentials."
       },
       {
         "title": "DevOps Fundamentals",
         "description": "SoftServe Academy | February - March 2024",
-        "details": "Version Control and Collaboration (Git, GitHub), Operating Systems and Scripting (Linux, Bash, PowerShell), Networking Basics, TCP/IP Addressing, Troubleshooting, Virtualization, and Databases."
+        "details": "Version control (Git, GitHub), Linux and scripting basics, networking fundamentals, virtualization, and database concepts."
       },
       {
         "title": "JavaScript Syntax",
         "description": "PASV | May 2023",
-        "details": "Learned the basics of JavaScript, including ES6 features."
+        "details": "Learned JavaScript basics, including ES6 features."
       },
       {
         "title": "QA Manual Testing",
         "description": "PASV | March - May 2023",
-        "details": "Covered fundamentals of testing, bug reporting, and API testing using Postman."
+        "details": "Fundamentals of testing, bug reporting, and API testing using Postman."
       }
     ],
     "contactsTitle": "Contacts",
@@ -95,28 +101,39 @@
       "email": {
         "type": "Email:",
         "value": "yrudikov@gmail.com"
+      },
+      "linkedin": {
+        "type": "Linkedin:",
+        "value": "https://www.linkedin.com/in/yrudikov/",
+        "title": "linkedin.com/in/yrudikov/"
+      },
+      "gitHub": {
+        "type": "GitHub:",
+        "value": "https://github.com/yrudikov",
+        "title": "github.com/yrudikov"
       }
     },
-    "techSkills": "Tech Skills",
+    "techSkills": "Skills",
     "techSkillsList": [
-      "GIT",
-      "Linux, bash",
-      "HTML, CSS, JavaScript",
-      "TypeScript",
-      "React",
-      "Next.js",
-      "Angular",
-      "Databases (SQL and NoSQL)",
+      "Version Control: Git, GitLab, GitHub",
+      "Frontend Development: HTML, CSS, JavaScript, TypeScript",
+      "Frameworks & Libraries: Angular, React, Next.js",
       "CSS Frameworks (PrimeNG, Bootstrap, Material UI)",
+      "Databases: SQL & NoSQL",
+      "Build & Package Tools: Webpack, NPM",
       "Node.js",
-      "Postman REST API"
+      "Linux, Bash",
+      "Postman (REST API)"
     ],
     "softSkills": "Soft Skills",
     "softSkillsList": [
-      "Scrum",
-      "Agile",
-      "GTD",
-      "Teamwork"
+      "Scrum & Agile methodologies",
+      "GTD (Getting Things Done)",
+      "Willingness to learn new technologies",
+      "Team collaboration",
+      "Excellent communication skills",
+      "Effective problem-solving",
+      "High attention to detail"
     ],
     "languages": "Languages",
     "languagesList": [
@@ -133,16 +150,29 @@
     "workExperience": "Doświadczenie Zawodowe",
     "workData": [
       {
+        "position": "Freelance Frontend Developer",
+        "organization": "Diet-A.com",
+        "period": "Styczeń 2025 - obecnie | Zdalnie",
+        "responsibilities": [
+          "Tworzenie i rozwijanie w pełni responsywnej strony internetowej dla <a href=\"https://diet-a.com/\" class=\"contactLink\">Diet-a.com</a> przy użyciu React, Next.js oraz Material UI.",
+          "Implementowanie nowoczesnych zasad UI/UX w celu zapewnienia atrakcyjnego i przyjaznego dla użytkownika doświadczenia.",
+          "Optymalizowanie wydajności strony oraz wdrażanie najlepszych praktyk SEO w celu zwiększenia widoczności organicznej w wyszukiwarkach.",
+          "Zarządzanie całym cyklem życia projektu — od początkowej koncepcji, przez projektowanie, wdrożenie, aż po bieżącą konserwację.",
+          "Ciągłe monitorowanie i udoskonalanie strony, aby sprostać zmieniającym się potrzebom użytkowników oraz standardom wydajności."
+        ]
+      },
+
+      {
         "position": "Junior Frontend Developer",
         "organization": "Email2TMS",
         "period": "Kwiecień 2024 - obecnie | Polska",
         "responsibilities": [
-          "Tworzenie responsywnych aplikacji w Angular v16 przy użyciu frameworka PrimeNG",
-          "Pisanie czytelnego i wydajnego kodu w TypeScript.",
-          "Współpraca przy projektowaniu interfejsów przyjaznych dla użytkownika.",
-          "Optymalizacja wydajności aplikacji i kodu.",
-          "Praca w środowisku Ubuntu 24.04 z wykorzystaniem WebStorm."
+          "Tworzenie responsywnych aplikacji webowych przy użyciu Angular v16 z frameworkiem PrimeNG, a także dynamicznych interfejsów z wykorzystaniem React i Next.js w wybranych projektach.",
+          "Pisanie czytelnego, wydajnego i łatwego do utrzymania kodu TypeScript w różnych technologiach.",
+          "Współpraca z zespołami interdyscyplinarnymi przy projektowaniu interfejsów przyjaznych dla użytkownika.",
+          "Optymalizacja wydajności aplikacji oraz zwiększanie efektywności kodu, aby sprostać różnorodnym wymaganiom projektowym."
         ]
+
       },
       {
         "position": "Technik Jakości",
@@ -151,15 +181,7 @@
         "responsibilities": [
           "Przygotowanie dokumentacji jakościowej, audyt produktu, analizy 8D. Zarządzanie selekcją gotowej produkcji. Rozwiązywanie bieżących problemów. Wykorzystanie narzędzia jakości oraz Lean (PDCA, Problem solving, Kaizen, SixSigma).",
           "Nadzór nad narzędziem pomiarowym oraz wzorcami. Praca z rysunkiem technicznym.",
-          "Obsługa skanera 3D, spektrometru, oscyloskopu. Przygotowanie raportów z pomiarów."
-        ]
-      },
-      {
-        "position": "Lider Linii",
-        "organization": "Ficomirrors Polska",
-        "period": "Wrzesień 2019 - Luty 2021 | Polska",
-        "responsibilities": [
-          "Zarządzanie linią produkcyjną, nadzór nad dokumentacją linii.",
+          "Obsługa skanera 3D, spektrometru, oscyloskopu. Przygotowanie raportów z pomiarów.",
           "Szkolenie nowych pracowników."
         ]
       }
@@ -182,34 +204,39 @@
     "courses": "Szkolenia, Kursy, Certyfikaty",
     "coursesData": [
       {
-        "title": "Database Fundamentals",
+        "title": "Practical React",
+        "description": "SoftServe Academy | December 2024 - March 2025",
+        "details": "JavaScript, OOP, zaawansowane koncepcje (asynchroniczność, closures, wyjątki), budowanie aplikacji w React przy użyciu JSX, komponentów, stanu, hooków, zarządzanie stanem przez Redux, routing oraz testowanie."
+      },
+      {
+        "title": "Podstawy baz danych",
         "description": "SoftServe Academy | Wrzesień - Październik 2024",
-        "details": "Relacyjne Bazy Danych (Klucze, Relacje, Podstawy SQL), Zaawansowane Zapytania (Funkcje Agregujące, Podzapytania), Projektowanie i Administracja Baz Danych (Transakcje, Procedury Składowane) oraz Wprowadzenie do NoSQL i MongoDB."
+        "details": "Relacyjne bazy danych, zaawansowane zapytania, projektowanie i administracja baz danych oraz wprowadzenie do NoSQL i MongoDB."
       },
       {
-        "title": "JavaScript/TypeScript Fundamentals",
+        "title": "Podstawy JavaScript/TypeScript",
         "description": "SoftServe Academy | Sierpień - Wrzesień 2024",
-        "details": "Podstawy JavaScript (Wyrażenia, Operatory, Typy Danych, Tablice, Funkcje), Debugowanie, OOP (Obiekty, Klasy), Manipulacja DOM, Obsługa Zdarzeń, Wyrażenia Regularne, Nowoczesny JS (Moduły ES, Destrukturyzacja, Set, Map), Asynchroniczny JS (Promises, async/await), Wprowadzenie do Node.js, Pełny Projekt Node.js (Fetch/AJAX) oraz Podstawy TypeScript (Typy Danych, Interfejsy, OOP, Generics, Dekoratory)."
+        "details": "Podstawy JavaScript, debugowanie, programowanie obiektowe, manipulacja DOM, nowoczesne funkcje JS, programowanie asynchroniczne, podstawy Node.js oraz podstawy TypeScript."
       },
       {
-        "title": "HTML/ CSS/ JavaScript Fundamentals",
+        "title": "Podstawy HTML/CSS/JavaScript",
         "description": "SoftServe Academy | Czerwiec - Lipiec 2024",
-        "details": "Podstawy Tworzenia Stron WWW (HTML, CSS, JavaScript), Zaawansowany CSS (FlexBox, Grid, Animacje), Kluczowe Elementy JavaScript (Manipulacja DOM, Fetch API) oraz Wprowadzenie do NodeJS."
+        "details": "Podstawy tworzenia stron internetowych, zaawansowane techniki CSS (FlexBox, Grid, animacje) oraz kluczowe zagadnienia JavaScript."
       },
       {
-        "title": "DevOps Fundamentals",
+        "title": "Podstawy DevOps",
         "description": "SoftServe Academy | Luty - Marzec 2024",
-        "details": "Kontrola wersji i współpraca (Git, GitHub), systemy operacyjne i skrypty (Linux, Bash, PowerShell), podstawy sieci, adresowanie TCP/IP, diagnozowanie problemów, wirtualizacja i bazy danych."
+        "details": "System kontroli wersji (Git, GitHub), podstawy Linuxa i skryptowania, podstawy sieci, wirtualizacja oraz koncepcje baz danych."
       },
       {
-        "title": "JavaScript Syntax",
+        "title": "Składnia JavaScript",
         "description": "PASV | Maj 2023",
-        "details": "Poznanie podstaw JavaScript, w tym funkcji ES6."
+        "details": "Poznano podstawy JavaScript, w tym funkcje ES6."
       },
       {
-        "title": "QA Manual Testing",
+        "title": "Ręczne testowanie QA",
         "description": "PASV | Marzec - Maj 2023",
-        "details": "Podstawy testowania, raportowania błędów i testowania API za pomocą Postmana."
+        "details": "Podstawy testowania, zgłaszania błędów oraz testowania API za pomocą Postman."
       }
     ],
     "contactsTitle": "Kontakty",
@@ -221,28 +248,39 @@
       "email": {
         "type": "Email:",
         "value": "yrudikov@gmail.com"
+      },
+      "linkedin": {
+        "type": "Linkedin:",
+        "value": "https://www.linkedin.com/in/yrudikov/",
+        "title": "linkedin.com/in/yrudikov/"
+      },
+      "gitHub": {
+        "type": "GitHub:",
+        "value": "https://github.com/yrudikov",
+        "title": "github.com/yrudikov"
       }
     },
-    "techSkills": "Tech Skills",
+    "techSkills": "Skills",
     "techSkillsList": [
-      "GIT",
-      "Linux, bash",
-      "HTML, CSS, JavaScript",
-      "TypeScript",
-      "React",
-      "Next.js",
-      "Angular",
-      "Bazy danych (SQL i NoSQL)",
+      "Version Control: Git, GitLab, GitHub",
+      "Frontend Development: HTML, CSS, JavaScript, TypeScript",
+      "Frameworks & Libraries: Angular, React, Next.js",
       "CSS Frameworks (PrimeNG, Bootstrap, Material UI)",
+      "Databases: SQL & NoSQL",
+      "Build & Package Tools: Webpack, NPM",
       "Node.js",
-      "Postman REST API"
+      "Linux, Bash",
+      "Postman (REST API)"
     ],
     "softSkills": "Soft Skills",
     "softSkillsList": [
-      "Scrum",
-      "Agile",
-      "GTD",
-      "Praca zespołowa"
+      "Metody Scrum i Agile",
+      "GTD (Getting Things Done)",
+      "Chęć uczenia się nowych technologii",
+      "Współpraca zespołowa",
+      "Doskonałe umiejętności komunikacyjne",
+      "Skuteczne rozwiązywanie problemów",
+      "Duża dbałość o szczegóły"
     ],
     "languages": "Języki",
     "languagesList": [
