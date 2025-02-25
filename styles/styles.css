@@ -7,8 +7,9 @@ body {
 .main {
     display: flex;
     flex-direction: row-reverse;
-    width: 1200px;
-    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
 }
 
 .content {
@@ -21,19 +22,29 @@ body {
     font-weight: 700;
     font-size: 22px;
     line-height: 27px;
-    color: #000000;
+    color: #182835;
     margin-bottom: 10px;
 }
 
+.about_wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
 .about {
-    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    /*margin-bottom: 40px;*/
 }
 .aboutPosition {
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 17px;
-    color: #000000;
+    color: #182835;
     margin-bottom: 20px;
 }
 .aboutName {
@@ -41,23 +52,24 @@ body {
     font-weight: 700;
     font-size: 45px;
     line-height: 55px;
-    color: #000000;
-    margin: 20px 0 10px 0 ;
+    color: #182835;
+    margin: 0 ;
 }
 .aboutTitle {
     font-style: normal;
     font-weight: 600;
     font-size: 30px;
-    color: #000000;
+    color: #182835;
     margin: 0;
 }
 .aboutDescription {
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
     color: #595959;
-    width: 654px;
+    width: 100%;
+    text-align: justify;
 }
 
 .projects {
@@ -70,15 +82,15 @@ body {
 .projectItem {
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
-    color: #000000;
+    color: #182835;
 
 }
 .project, .projectLink {
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
     color: #595959;
 
@@ -86,9 +98,9 @@ body {
 .projectBracket {
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
-    color: #000000;
+    color: #182835;
 }
 .projectLink {
     margin-left: 10px;
@@ -105,7 +117,7 @@ body {
 .workListItem {
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
     color: #595959;
 }
@@ -114,7 +126,7 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
-    color: #000000;
+    color: #182835;
     margin-bottom: 10px;
 }
 .organization {
@@ -137,7 +149,7 @@ body {
 .period2 {
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
     color: #595959;
     margin-bottom: 10px;
@@ -148,7 +160,7 @@ body {
     font-weight: 400;
     font-size: 12px;
     line-height: 15px;
-    color: #000000;
+    color: #182835;
     margin: auto 5px;
 }
 
@@ -164,9 +176,9 @@ body {
 .speciality {
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 17px;
-    color: #000000;
+    color: #182835;
     margin-bottom: 10px;
     margin-top: 10px;
 }
@@ -176,60 +188,68 @@ body {
    padding-top: 40px;
    width: 370px;
 }
+.photo_wrapper {
+    max-width: 300px;
+
+}
 .photo {
-    width: 370px;
+    width: 100%;
+    object-fit: contain;
     margin-bottom: 20px;
-    border-radius: 2px;
+    border-radius: 6px;
 }
 .sidebarTitle {
-    color: #FFFFFF;
+    color: #182835;
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
     line-height: 27px;
     margin-bottom: 10px;
 }
-.contacts, .tSkills, .sSkills {
-    margin-left: 40px;
-    margin-right: 40px;
-}
+/*.contacts, .tSkills, .sSkills {*/
+/*    margin-left: 40px;*/
+/*    margin-right: 40px;*/
+/*}*/
 .contacts {
-    margin-bottom: 50px;
+    /*margin-bottom: 50px;*/
 }
 
 .contactType {
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
-    color: #FFFFFF;
+    color: #182835;
     margin-right: 10px;
 }
 .contactLink {
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
-    color: #8d949d;
+    color: #FB6D3A;
     text-decoration: none;
 }
 .tSkills {
-    margin-bottom: 45px;
+    /*margin-bottom: 45px;*/
 }
 .skillsList {
-    color: #FFFFFF;
+    color: #595959;;
     padding: 0;
     margin-left: 18px;
+}
+.language-skillsList {
+    display: flex;
 }
 
 .skillsItem {
     color: #FB6D3A;
 }
 .skillsText {
-    color: #FFFFFF;
+    color: #595959;;
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
 }
 
@@ -237,7 +257,7 @@ body {
     position: relative;
     width: 100%;
     height: 10vh;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
 }
@@ -264,5 +284,11 @@ body {
 
 .contacts-paragraph {
     display: flex;
+    justify-content: space-between;
+}
+
+.education-wrapper {
+    display: flex;
+    flex-direction: row-reverse;
     justify-content: space-between;
 }

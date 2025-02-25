@@ -110,10 +110,10 @@ function renderCourses(translations, language) {
         speciality.textContent = course.description;
         courseDiv.appendChild(speciality);
 
-        const details = document.createElement('p');
-        details.className = 'period2';
-        details.textContent = course.details;
-        courseDiv.appendChild(details);
+        // const details = document.createElement('p');
+        // details.className = 'period2';
+        // details.textContent = course.details;
+        // courseDiv.appendChild(details);
 
         coursesContainer.appendChild(courseDiv);
     });
@@ -149,11 +149,11 @@ function renderContacts(translations, language) {
         <a href="${contactsData.linkedin.value}" class="contactLink">${contactsData.linkedin.title}</a>`;
     contactsDiv.appendChild(linkedinElement);
 
-    const githubElement = document.createElement('p');
-    githubElement.className = 'contacts-paragraph';
-    githubElement.innerHTML = `<span class="contactType">${contactsData.gitHub.type}</span>
-        <a href="${contactsData.gitHub.value}" class="contactLink">${contactsData.gitHub.title}</a>`;
-    contactsDiv.appendChild(githubElement);
+    // const githubElement = document.createElement('p');
+    // githubElement.className = 'contacts-paragraph';
+    // githubElement.innerHTML = `<span class="contactType">${contactsData.gitHub.type}</span>
+    //     <a href="${contactsData.gitHub.value}" class="contactLink">${contactsData.gitHub.title}</a>`;
+    // contactsDiv.appendChild(githubElement);
 
     contactsContainer.appendChild(contactsDiv);
 }

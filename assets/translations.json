@@ -1,30 +1,41 @@
 {
   "en": {
     "aboutName": "Yevhen Rudikov",
-    "aboutDescription": "I am a self-motivated person who is willing to gain knowledge, use it, and grow professionally. I always listen to the opinions of others and work well in a team.",
+    "aboutDescription": "I am a Software Engineer with experience in React, Next.js, Angular, and Material UI. I build responsive web applications, optimize performance, and implement modern UI/UX and SEO best practices. Additionally, I specialize in working with forms and tables, implementing data validation, handling API interactions, and integrating external services.\n\nSkilled in JavaScript, TypeScript, and Agile methodologies, I collaborate effectively in teams and write clean, efficient code.\n\nWith a background in quality control, I have strong analytical and problem-solving skills. Additionally, I have experience working with 3D modeling and 3D scanning technologies. Constantly learning, I am passionate about web development and eager for new challenges!",
     "workExperience": "Work Experience",
     "workData": [
       {
         "position": "Freelance Frontend Developer",
         "organization": "Diet-A.com",
-        "period": "January 2025 - Present | Remote",
+        "period": "January 2025 - February 2025 | Remote",
         "responsibilities": [
-          "Creating and developing a fully responsive website for <a href=\"https://diet-a.com/\" class=\"contactLink\">Diet-a.com</a> using React, Next.js, and Material UI.",
-          "Implementing modern UI/UX principles to ensure an engaging and user-friendly experience.",
-          "Optimizing site performance and integrating SEO best practices to boost organic search visibility.",
-          "Managing the entire project lifecycle—from initial concept and design to deployment and ongoing maintenance.",
-          "Continuously monitoring and refining the website to meet evolving user needs and performance standards."
+          "Creation and development of a commercial website using React, Next.js, and Material UI, focusing on responsive and accessible design.",
+          "Implementation of modern UI/UX principles to enhance user experience and engagement.",
+          "Optimization of website performance and application of SEO best practices to improve organic search visibility.",
+          "Management of the full development lifecycle, from concept and design to deployment and maintenance. Continuous monitoring and refinement of the website."
         ]
       },
       {
         "position": "Junior Frontend Developer",
         "organization": "Email2TMS",
-        "period": "April 2024 - January 2025 | Poland",
+        "period": "April 2024 - January 2025 | Poland (Full-time)",
         "responsibilities": [
-          "Develop responsive web applications using Angular with the PrimeNG framework, as well as building dynamic interfaces with React and Next.js for select projects.",
-          "Write clean, efficient, and maintainable TypeScript code across different frameworks.",
-          "Collaborate with cross-functional teams to design user-friendly interfaces.",
-          "Optimize application performance and enhance code efficiency to meet diverse project requirements."
+          "Development and maintenance of an application for processing and integrating transport orders using technologies such as Angular, RxJS, and PrimeNG.",
+          "Implementation and improvement of UI components, including forms, form validation, working with tables, and data processing within them. Writing technical documentation and creating basic tests.",
+          "Integration with external services and REST APIs, optimizing data exchange between the frontend and backend.",
+          "Optimization of client-server interaction to enhance performance and ensure smooth data processing.",
+          "Collaboration with designers and backend developers to create user-friendly and responsive interfaces.",
+          "Development and management of the company's landing page using React and Next.js, ensuring high performance and SEO optimization."
+        ]
+      },
+      {
+        "position": "Junior Frontend developer",
+        "organization": "IT House Dnipro",
+        "period": "July 2023 - March 2024 | Remote (Part-time)",
+        "responsibilities": [
+          "Development and styling of web pages using HTML, CSS, and JavaScript, ensuring a responsive and accessible design.",
+          "Implementation of basic SEO principles to improve website visibility in search engines. Optimization of page loading speed and performance for a better user experience.",
+          "Collaboration with designers and developers to translate UI/UX mockups into functional web pages."
         ]
       },
       {
@@ -115,15 +126,15 @@
     },
     "techSkills": "Skills",
     "techSkillsList": [
-      "Version Control: Git, GitLab, GitHub",
-      "Frontend Development: HTML, CSS, JavaScript, TypeScript",
-      "Frameworks & Libraries: Angular, React, Next.js",
-      "CSS Frameworks (PrimeNG, Bootstrap, Material UI)",
-      "Databases: SQL & NoSQL",
-      "Build & Package Tools: Webpack, NPM",
-      "Node.js",
-      "Linux, Bash",
-      "Postman (REST API)"
+      "<b>Frontend Development:</b> HTML, CSS, JavaScript, TypeScript.",
+      "<b>Frameworks & Libraries:</b> Angular, React, Next.js, zod, RxJS, Redux Toolkit, i18n, next-intl, ReactRouter, React Slick.",
+      "<b>CSS Libraries:</b> PrimeNG, Bootstrap, Material UI, Angular Material.",
+      "<b>Build & Package Tools:</b> Webpack, NPM, Babel.",
+      "<b>Databases:</b> PostgreSQL, MongoDB.",
+      "<b>Version Control:</b> Git, GitLab, GitHub.",
+      "<b>Operating Systems & System Administration:</b> Windows, MacOS, Linux, CLI, Bash.",
+      "<b>Testing, API & Server Tools:</b> Postman (REST API), WebSocket, Node.js, Jest.",
+      "<b>Methodologies:</b> Scrum, Agile, GTD"
     ],
     "softSkills": "Soft Skills",
     "softSkillsList": [
@@ -137,13 +148,30 @@
     ],
     "languages": "Languages",
     "languagesList": [
-      "Ukrainian: native",
-      "English: intermediate",
-      "Polish: advanced",
-      "Russian: advanced"
+      "<b>Ukrainian:</b> native",
+      "<b>English:</b> intermediate",
+      "<b>Polish:</b> advanced",
+      "<b>Russian:</b> advanced"
     ],
     "languageSwitch": "PL"
   },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   "pl": {
     "aboutName": "Yevhen Rudikov",
     "aboutDescription": "Jestem osobą samodzielną i uczciwą, która chętnie zdobywa wiedzę, wykorzystuje ją i rozwija się zawodowo. Zawsze słucham opinii innych osób i dobrze współpracuję w zespole.",
