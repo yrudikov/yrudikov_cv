@@ -127,7 +127,7 @@
     "techSkills": "Skills",
     "techSkillsList": [
       "<b>Frontend Development:</b> HTML, CSS, JavaScript, TypeScript.",
-      "<b>Frameworks & Libraries:</b> Angular, React, Next.js, zod, RxJS, Redux Toolkit, i18n, next-intl, ReactRouter, React Slick.",
+      "<b>Frameworks & Libraries:</b> Angular, React, Next.js, Svelte, zod, RxJS, Redux Toolkit, i18n, next-intl, ReactRouter, React Slick.",
       "<b>CSS Libraries:</b> PrimeNG, Bootstrap, Material UI, Angular Material.",
       "<b>Build & Package Tools:</b> Webpack, NPM, Babel.",
       "<b>Databases:</b> PostgreSQL, MongoDB.",
